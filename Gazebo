@@ -5,6 +5,9 @@ https://vitux.com/opencv_ubuntu/ -> openCV
 sudo apt-get install ros-noetic-slam-gmapping
 sudo apt-get install ros-noetic-cv-bridge
 
+https://github.com/rpng/open_vins/blob/master/ov_msckf/src/ros1_serial_msckf.cpp
+https://github.com/rpng/open_vins/blob/master/ov_msckf/src/core/VioManager.cpp
+
 parei: cd opencv_build/opencv/build
        time make -j8
        sudo make install
